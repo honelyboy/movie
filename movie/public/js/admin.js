@@ -6,13 +6,18 @@ $(function(){
 
 		$.ajax({
 			type:'DELETE',
-			url:'/admin/list?id'+id
+			url:'/admin/list?id='+id
 		})
 		.done(function(results){
 			if(results.success === 1){
 				if(tr.length >0){
+					// alert("success")
 					tr.remove()
+					// tr.hide()
+					// $('.item-id-'+id).hide("fast");
 				}
+			}else{
+				alert("删除错误")
 			}
 		})
 	})

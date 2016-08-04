@@ -1,0 +1,21 @@
+{
+  "name": "movie",
+  "homepage": "https://github.com/honelyboy/movie",
+  "authors": [
+    "孔毅 <15101269597@163.com>"
+  ],
+  "description": "look movie",
+  "main": "",
+  "keywords": [
+    "movie"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
