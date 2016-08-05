@@ -21,6 +21,8 @@ app.use(session({
       	autoRemoveInterval: 10
 	})
 }));
+
+var urlencodedParser = bodyParser.urlencoded({ extended: false })
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views','./app/views/pages');
 app.set('view engine','jade');
